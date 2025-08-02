@@ -28,7 +28,7 @@ Watsonx Runtime- Model execution environment
 
 
 ## 📸 Screenshots
- *All screenshots are stored in the `/screenshots` folder*
+ *All screenshots are in repo and ppt also*
 
 ## Agent Instructions Summary
 
