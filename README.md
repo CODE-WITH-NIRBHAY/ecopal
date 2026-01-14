@@ -1,127 +1,73 @@
-#📦 CITK Campus Lost & Found
+# EcoPal - Your Smart Eco Lifestyle Assistant
+ 
+*A friendly AI agent that makes sustainability simple, personal, and actionable.*
 
-A centralized, web-based Lost & Found platform designed for
-Central Institute of Technology, Kokrajhar (CITK).
+## 🌱 About EcoPal
 
-🧩 Overview
+**EcoPal** is an AI-powered virtual assistant designed to guide individuals toward a more eco-friendly and sustainable lifestyle.  
+Built using **IBM Watsonx.ai**, **Granite large language models**, and **Retrieval-Augmented Generation (RAG)**, EcoPal understands natural language queries and responds with personalized green living advice — right when the user needs it.
+Whether it's reducing plastic, saving energy, or understanding local recycling rules, EcoPal is always ready to help 🌿
 
-CITK Campus Lost & Found is a lightweight web application that helps students and staff report, track, and recover lost items on campus.
+## 💡 Key Features
 
-Instead of scattered WhatsApp messages or notice boards, this platform provides one trusted system with image-based reporting, automatic matching, and admin verification.
+✅ Natural language support for eco-questions  
+✅ Refuses unrelated queries to stay focused  
+✅ Practical tips for plastic use, water, energy, and travel  
+✅ Personalized responses based on location or context  
+✅ Built using IBM Cloud’s free **Lite Plan**  
+✅ Retrieval-Augmented Generation (RAG) support for document-based answers
 
-🚩 Problem Statement
 
-Lost items on campus are usually reported through informal methods such as:
+## 🛠️ Tech Stack
 
-WhatsApp groups
+IBM Watsonx.ai- AI agent creation platform 
+Granite / Mistral Model- Foundation LLM for conversations 
+IBM Cloud Lite- Hosting environment 
+RAG (Retrieval-Augmented Generation)- Fetches knowledge from uploaded content 
+Watsonx Runtime- Model execution environment 
 
-Physical notice boards
 
-Word of mouth
+## 📸 Screenshots
+ *All screenshots are in repo and ppt also*
 
-These approaches are:
+## Agent Instructions Summary
 
-Unorganized
+- Focus only on sustainability-related topics  
+- Reject all unrelated queries politely  
+- Use simple, encouraging tone  
+- Avoid technical terms and hallucinations  
+- Built for beginners, students, families, and eco-conscious citizens
+- 
+## 🎯 Use Cases
 
-Easy to miss
+- Green lifestyle guidance for students & households  
+- Community awareness campaigns  
+- Eco-clubs in schools/colleges  
+- NGOs promoting sustainability  
+- Smart city or municipality outreach
 
-Impossible to track or verify
 
-As a result, many items are never returned to their owners.
+## 🚀 Future Scope
 
-💡 Proposed Solution
+- Support for Hindi and other regional languages  
+- Mobile/web app interface  
+- Integration with local recycling databases  
+- Habit tracker and eco-score system  
+- Smart device compatibility for energy monitoring
 
-This project introduces a centralized Lost & Found web platform where:
+## 👩‍💻 Created By
 
-Users can report lost or found items with images
+NIRBHAY KUMAR SINGH
+AI Internship Project 
+Project Duration: July–August 2025
 
-All reports are stored in one place
 
-Possible matches are automatically identified
+## 🎓 Certifications (IBM SkillsBuild)
 
-Admin can verify and mark items as returned
+- ✅ Getting Started with AI  
+- ✅ Journey to Cloud  
+- ✅ Retrieval-Augmented Generation Lab  
 
-This improves recovery speed, transparency, and trust.
+*(Badge screenshots included in project PPT)*
 
-✨ Features
-
-🧭 Centralized campus-specific platform
-
-📸 Image-based reporting of items
-
-📝 Lost item reporting with description and location
-
-✅ Found item reporting with image and location
-
-📋 Organized listing of all items
-
-🔍 Automatic matching of lost and found items
-
-🛠 Admin panel for verification and status update
-
-🔄 Status lifecycle: Open → Returned
-
-📱 Mobile-friendly and responsive UI
-
-📈 Scalable for multi-campus use
-
-🛠 Tech Stack
-Frontend
-
-HTML
-
-CSS
-
-JavaScript
-
-Backend (Google Technologies)
-
-Firebase Firestore – Cloud database
-
-Google Cloud Platform (via Firebase)
-
-Image Handling
-
-Cloud-based image hosting service
-
-🏗 Architecture Overview
-
-Web Browser (User / Admin)
-
-Frontend (HTML, CSS, JavaScript)
-
-Firebase Firestore (Database)
-
-Matching Logic
-
-Admin Panel for verification
-
-This modular architecture ensures scalability and maintainability.
-
-🔄 Process Flow
-
-User reports a lost or found item
-
-Item details and image are stored in the database
-
-Matching logic checks for possible matches
-
-Matches are displayed to users
-
-Admin verifies and marks item as returned
-
-Status updates are reflected system-wide
-
-🚀 Future Enhancements
-
-🔐 User authentication and role-based access
-
-🤖 AI-based matching for higher accuracy
-
-🔔 Email / in-app notifications
-
-🧾 Claim verification workflow
-
-📊 Analytics dashboard
-
-🌐 Deployment on Firebase Hosting
+> 🌟 “Sustainability isn’t a choice anymore — it’s a lifestyle. EcoPal makes it easy to live it.”
